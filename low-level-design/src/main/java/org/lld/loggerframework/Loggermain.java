@@ -1,6 +1,6 @@
 package org.lld.loggerframework;
 
-import lombok.Setter;
+
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -111,7 +111,7 @@ class DestinationFectory{
     }
 }
 
-@Setter
+
 class LogConfig{
     private LogLevel level;
     private List<LogDestination> logDestination;
